@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #ffffff92; /* Warna abu-abu putih */
+            background-image: url('bg.jpg'); /* Gambar latar belakang */
+            background-size: cover; /* Menutup seluruh halaman dengan gambar */
+            background-repeat: no-repeat; /* Gambar tidak diulang */
+            background-position: center; /* Memusatkan gambar */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: darkgrey; /* Warna latar belakang kotak */
+            padding: 20px; /* Ruang di dalam kotak */
+            border-radius: 10px; /* Membuat sudut kotak sedikit melengkung */
+            text-align: center; /* Memusatkan teks di dalam kotak */
+        }
+
+        img {
+            border-radius: 15%; /* Membuat pinggiran foto agak oval */
+            display: block; /* Agar gambar mengikuti margin auto dari container */
+            margin: 0 auto; /* Memusatkan gambar di dalam kotak */
+        }
+
+        h1 {
+            margin-bottom: 20px; /* Jarak antara heading dan gambar */
+        }
+
+        .button {
+            display: inline-block;
+            background-color: white; /* Warna latar belakang tombol */
+            color: black; /* Warna teks tombol */
+            padding: 10px 20px; /* Padding di dalam tombol */
+            text-align: center;
+            text-decoration: none; /* Menghapus garis bawah pada teks */
+            font-size: 16px; /* Ukuran font tombol */
+            border-radius: 5px; /* Membuat sudut tombol melengkung */
+            border: 2px solid black; /* Menambahkan border hitam */
+            margin-top: 20px; /* Jarak antara gambar dan tombol */
+            cursor: pointer; /* Menambahkan cursor pointer saat hover */
+        }
+
+        .button:hover {
+            background-color: #f0f0f0; /* Warna latar belakang tombol saat dihover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SELAMAT DATANG DI WEBSITE PENGELOLA KEUANGAN</h1>
+        <img src="animasi.jpg" alt="foto" height="300" width="300">
+        <a href="login.php" class="button">MULAI</a>
+    </div>
+</body>
+</html>
